@@ -1,0 +1,141 @@
+nav{
+    position: fixed;
+    top: 0;
+    height: 80px;
+    background-color: black;
+    width: 100vw;
+    z-index: 100;
+    place-content: center;
+}
+
+#sidebar{
+    height: 100vh;
+    width: 400px;
+    border: 2px solid black;
+    z-index: 10;
+    background-color: azure;
+    position: fixed;
+    top: 0;
+}
+
+.search_input{
+    width: 600px;
+    border-radius: 20px;
+    margin-top: -40px
+}
+
+#search_form{
+    display: flex;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+input#search_btn.btn.btn-dark.btn-md{
+    width: 100px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: -17px;
+}
+
+input#search_btn.btn.btn-dark.btn-md:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+main{
+    margin-left: 400px;
+}
+
+[type="submit"]{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+[type="button"]{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+
+/*
+button#delete-me:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: red;
+}
+
+button#update-price.mt-3:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+*/
+
+ul{
+    padding: none;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+}
+
+ul li a:hover{
+    background-color: azure;
+    border-bottom: 2px solid black;
+}
+
+ul li span{
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    margin: 20px;
+    line-height: 0.9rem;
+
+}
+
+ul li span:hover{
+    font-size: 20px;
+    width: 80px;
+    text-align: center
+}
+
+.myhead{
+    margin-left: 90px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+}
+
+.search{
+    text-align: center;
+    padding: 3px;
+}
+
+.horizontal{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
